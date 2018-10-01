@@ -50,7 +50,7 @@ namespace Havel_Hakimi
 
                 for (int i = 0; i < numberOfVertices; i++)
                 {
-                    dtVertices.Rows.Add(0);
+                    dtVertices.Rows.Add(i);
                 }
 
                 dgvVertices.DataSource = dtVertices;
